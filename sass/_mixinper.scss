@@ -1,0 +1,9 @@
+
+@mixin neum ($radius , $eje) {
+
+
+    border-radius: $radius;
+    box-shadow: $eje $eje ($eje*2) rgba(70,70,70,0.15),
+                (-$eje) (-$eje) ($eje*2) #fff;
+}
+

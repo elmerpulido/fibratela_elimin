@@ -1,0 +1,54 @@
+
+
+.top{
+
+    border: 1px solid #f7f7f7;
+    @include neum (10px, 7px);
+    box-sizing: border-box;
+
+    .header__logo a{
+
+        font-family: 'Miss Fajardose', cursive;
+        font-size: 3em;
+    }
+
+    .header__categorias{
+
+        font-size: 1.2em;
+
+            i{
+                margin-left: .5em;
+            }
+
+    }
+
+    .header_RedSocial i{
+        padding: .3em;
+        border-radius: 50%;
+        font-size: 1.5em;
+        border: 1px solid #f7f7f7;
+        @include neum (50px, 7px);
+        box-sizing: border-box;       
+
+    }
+
+    .header_shopCar{
+        
+        width: 7em;
+        padding: .3em;
+        border-radius: 10px;
+        font-size: 1em;
+        border: 1px solid #f7f7f7;
+        @include neum (50px, 7px);
+        box-sizing: border-box;
+            
+        i{
+           
+        }
+
+    }
+
+    
+    
+
+}

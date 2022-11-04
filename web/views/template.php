@@ -18,6 +18,9 @@ $path = TemplateController::path();
 
     <title>Fibratela</title>
 
+    <link rel="stylesheet" href="views/assets/css/styles.css"/>
+    <link rel="stylesheet" href="views/assets/plugins/fontawesome/css/all.min.css">
+
 
 </head>
 
