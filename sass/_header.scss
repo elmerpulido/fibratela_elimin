@@ -1,54 +1,79 @@
 
-
 .top{
 
-    border: 1px solid #f7f7f7;
-    @include neum (10px, 7px);
-    box-sizing: border-box;
+    width: 80%;
+    margin: 2em auto;
+    border: .1em solid #fff;
+    @include neum (10px , 6px);
 
-    .header__logo a{
+      .header__elment{
+         padding: .5em;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+      }
 
-        font-family: 'Miss Fajardose', cursive;
-        font-size: 3em;
-    }
+     .header__logo{
 
-    .header__categorias{
+         
+         a{
+            font-size: 4em;
+            font-family: 'Miss Fajardose', cursive;
+            cursor: pointer;
+         }
 
-        font-size: 1.2em;
+     }
 
-            i{
-                margin-left: .5em;
-            }
+     .header__categorias{
 
-    }
+         padding: .8em;
+         width: 12%;
+         @include neum (10px , 6px);
+         cursor: pointer;
 
-    .header_RedSocial i{
-        padding: .3em;
-        border-radius: 50%;
-        font-size: 1.5em;
-        border: 1px solid #f7f7f7;
-        @include neum (50px, 7px);
-        box-sizing: border-box;       
-
-    }
-
-    .header_shopCar{
-        
-        width: 7em;
-        padding: .3em;
-        border-radius: 10px;
-        font-size: 1em;
-        border: 1px solid #f7f7f7;
-        @include neum (50px, 7px);
-        box-sizing: border-box;
+         a{
+            font-size: 1em;
             
-        i{
-           
-        }
+            i{
+               font-size: .8em;
+            }
+         }
+     
+     }
 
-    }
+     .header_RedSocial{
+      a{
+         padding: .3em .5em;
+         margin: .5em;
+         font-size: 1.5em;
+         display: inline-block;
+         justify-content: center;
+         cursor: pointer;
 
-    
-    
+      }
+     }
+
+     .header_shopCar{
+
+         a{
+            font-size: 1.2em;
+         }
+     }
+
+     .header_perfil{
+      
+         margin: 0;
+         width: 8%;
+         padding: .5em;
+         @include insiteneum (50px , 7px);
+            img{
+               
+               padding: 5%;
+               @include neum (50px , 6px);
+            }
+     }
+
+
 
 }

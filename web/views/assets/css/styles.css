@@ -4164,40 +4164,61 @@
   }
 }
 .top {
-  border: 1px solid #f7f7f7;
+  width: 80%;
+  margin: 2em auto;
+  border: 0.1em solid #fff;
   border-radius: 10px;
-  box-shadow: 7px 7px 14px rgba(70, 70, 70, 0.15), -7px -7px 14px #fff;
-  box-sizing: border-box;
+  box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+}
+.top .header__elment {
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .top .header__logo a {
+  font-size: 4em;
   font-family: "Miss Fajardose", cursive;
-  font-size: 3em;
+  cursor: pointer;
 }
 .top .header__categorias {
+  padding: 0.8em;
+  width: 12%;
+  border-radius: 10px;
+  box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+  cursor: pointer;
+}
+.top .header__categorias a {
+  font-size: 1em;
+}
+.top .header__categorias a i {
+  font-size: 0.8em;
+}
+.top .header_RedSocial a {
+  padding: 0.3em 0.5em;
+  margin: 0.5em;
+  font-size: 1.5em;
+  display: inline-block;
+  justify-content: center;
+  cursor: pointer;
+}
+.top .header_shopCar a {
   font-size: 1.2em;
 }
-.top .header__categorias i {
-  margin-left: 0.5em;
-}
-.top .header_RedSocial i {
-  padding: 0.3em;
-  border-radius: 50%;
-  font-size: 1.5em;
-  border: 1px solid #f7f7f7;
+.top .header_perfil {
+  margin: 0;
+  width: 8%;
+  padding: 0.5em;
   border-radius: 50px;
-  box-shadow: 7px 7px 14px rgba(70, 70, 70, 0.15), -7px -7px 14px #fff;
-  box-sizing: border-box;
+  box-shadow: inset 7px 7px 14px rgba(70, 70, 70, 0.15), inset -7px -7px 14px #fff;
 }
-.top .header_shopCar {
-  width: 7em;
-  padding: 0.3em;
-  border-radius: 10px;
-  font-size: 1em;
-  border: 1px solid #f7f7f7;
+.top .header_perfil img {
+  padding: 5%;
   border-radius: 50px;
-  box-shadow: 7px 7px 14px rgba(70, 70, 70, 0.15), -7px -7px 14px #fff;
-  box-sizing: border-box;
+  box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
 }
+
 * {
   margin: 0;
   padding: 0;

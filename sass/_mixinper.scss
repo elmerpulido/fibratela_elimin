@@ -7,3 +7,11 @@
                 (-$eje) (-$eje) ($eje*2) #fff;
 }
 
+@mixin insiteneum ($radius , $eje) {
+
+
+    border-radius: $radius;
+    box-shadow: inset $eje $eje ($eje*2) rgba(70,70,70,0.15),
+                inset (-$eje) (-$eje) ($eje*2) #fff;
+}
+
