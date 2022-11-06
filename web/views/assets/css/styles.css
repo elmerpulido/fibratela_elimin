@@ -4165,13 +4165,13 @@
 }
 .top {
   width: 80%;
-  margin: 2em auto;
+  margin: 1em auto;
   border: 0.1em solid #fff;
   border-radius: 10px;
-  box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+  box-shadow: 7px 7px 14px rgba(70, 70, 70, 0.15), -7px -7px 14px #fff;
 }
 .top .header__elment {
-  padding: 0.5em;
+  padding: 0.2em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4183,40 +4183,84 @@
   cursor: pointer;
 }
 .top .header__categorias {
-  padding: 0.8em;
+  padding: 0.4em;
   width: 12%;
+  border-radius: 10px;
+  box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+}
+.top .header__categorias a {
+  font-size: 1.3em;
+}
+.top .header__categorias a i {
+  margin: auto;
+  font-size: 0.8em;
+}
+.top .header__categorias.header__categorias:hover {
+  border-radius: 10px;
+  box-shadow: inset 7px 7px 14px rgba(70, 70, 70, 0.15), inset -7px -7px 14px #fff;
+}
+.top .header_RedSocial {
+  width: 2em auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top .header_RedSocial a {
+  padding: 0.3em 0.6em;
+  margin: 0.2em;
+  font-size: 1.5em;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+}
+.top .header_RedSocial a:hover {
+  border-radius: 10px;
+  box-shadow: inset 7px 7px 14px rgba(70, 70, 70, 0.15), inset -7px -7px 14px #fff;
+}
+.top .header_RedSocial a:hover .fa-facebook-f {
+  color: blue;
+}
+.top .header_RedSocial a:hover .fa-instagram {
+  color: red;
+}
+.top .header_RedSocial a:hover .fa-whatsapp {
+  color: black;
+}
+.top .header_shopCar {
+  padding: 0.8em;
+  width: 2em auto;
   border-radius: 10px;
   box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
   cursor: pointer;
 }
-.top .header__categorias a {
+.top .header_shopCar a {
   font-size: 1em;
 }
-.top .header__categorias a i {
-  font-size: 0.8em;
+.top .header_shopCar.header_shopCar:hover {
+  border-radius: 10px;
+  box-shadow: inset 7px 7px 14px rgba(70, 70, 70, 0.15), inset -7px -7px 14px #fff;
 }
-.top .header_RedSocial a {
-  padding: 0.3em 0.5em;
-  margin: 0.5em;
-  font-size: 1.5em;
-  display: inline-block;
-  justify-content: center;
-  cursor: pointer;
+.top .header_Ini {
+  margin: auto;
 }
-.top .header_shopCar a {
-  font-size: 1.2em;
+.top .header_Ini a {
+  margin: 0.1em;
+  padding: 0.1em;
+  border-radius: 10px;
+  box-shadow: 7px 7px 14px rgba(70, 70, 70, 0.15), -7px -7px 14px #fff;
 }
 .top .header_perfil {
-  margin: 0;
-  width: 8%;
-  padding: 0.5em;
+  margin: auto;
+  width: auto;
+  padding: 0.6em;
   border-radius: 50px;
   box-shadow: inset 7px 7px 14px rgba(70, 70, 70, 0.15), inset -7px -7px 14px #fff;
 }
 .top .header_perfil img {
-  padding: 5%;
+  width: 3em;
+  padding: 0.3em;
   border-radius: 50px;
-  box-shadow: 6px 6px 12px rgba(70, 70, 70, 0.15), -6px -6px 12px #fff;
+  box-shadow: 7px 7px 14px rgba(70, 70, 70, 0.15), -7px -7px 14px #fff;
 }
 
 * {
@@ -4232,5 +4276,5 @@ body a, body li {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   color: #38675D;
-  transform: none;
+  list-style: none;
 }/*# sourceMappingURL=styles.css.map */

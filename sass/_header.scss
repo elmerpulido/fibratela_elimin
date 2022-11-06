@@ -2,78 +2,135 @@
 .top{
 
     width: 80%;
-    margin: 2em auto;
+    margin: 1em auto;
     border: .1em solid #fff;
-    @include neum (10px , 6px);
+    @include neum (10px , 7px);
 
       .header__elment{
-         padding: .5em;
+         padding: .2em;
          display: flex;
          align-items: center;
          justify-content: center;
          text-align: center;
       }
+      
 
      .header__logo{
-
          
          a{
             font-size: 4em;
             font-family: 'Miss Fajardose', cursive;
             cursor: pointer;
+
          }
 
      }
 
      .header__categorias{
 
-         padding: .8em;
+         padding: .4em;
          width: 12%;
          @include neum (10px , 6px);
-         cursor: pointer;
 
          a{
-            font-size: 1em;
+            font-size: 1.3em;
             
             i{
+               margin: auto;
                font-size: .8em;
             }
+
          }
+         
+         &.header__categorias:hover{
+
+            @include insiteneum (10px , 7px);            
+   
+        }
      
      }
 
+    
+
      .header_RedSocial{
-      a{
-         padding: .3em .5em;
-         margin: .5em;
-         font-size: 1.5em;
-         display: inline-block;
+         width: 2em auto;
+         display: flex;
+         align-items: center;
          justify-content: center;
+      a{
+         padding: .3em .6em;
+         margin: .2em;
+         font-size: 1.5em;
          cursor: pointer;
+         @include neum (10px , 6px);
 
       }
+
+      & a:hover{
+
+         @include insiteneum (10px , 7px);
+
+            .fa-facebook-f{
+               color: blue;
+            }
+
+            .fa-instagram{
+               color: red;
+            }
+
+            .fa-whatsapp{
+               color: black;
+            }       
+         
+      }
+
      }
+
 
      .header_shopCar{
 
-         a{
-            font-size: 1.2em;
+      padding: .8em;
+      width: 2em auto;
+      @include neum (10px , 6px);
+      cursor: pointer;
+
+      a{
+         font-size: 1em;
+
+      }
+      
+      &.header_shopCar:hover{
+
+         @include insiteneum (10px , 7px);            
+
          }
      }
 
-     .header_perfil{
-      
-         margin: 0;
-         width: 8%;
-         padding: .5em;
-         @include insiteneum (50px , 7px);
-            img{
-               
-               padding: 5%;
-               @include neum (50px , 6px);
-            }
+     .header_Ini{
+
+         margin: auto;       
+        
+         a{
+            margin: .1em;
+            padding: .1em;
+            @include neum (10px , 7px);
+         }
+         
      }
 
+     .header_perfil{
 
+         margin: auto;
+         width: auto;
+         padding: .6em;
+         @include insiteneum (50px , 7px);
+
+            img{
+               
+               width: 3em;
+               padding: .3em;
+               @include neum (50px , 7px)
+            }
+     }
 
 }

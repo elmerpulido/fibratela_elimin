@@ -20,6 +20,7 @@ $path = TemplateController::path();
 
     <link rel="stylesheet" href="views/assets/css/styles.css"/>
     <link rel="stylesheet" href="views/assets/plugins/fontawesome/css/all.min.css">
+    <script src="views/assets/plugins/js/bootstrap.min.js"></script>
 
 
 </head>
